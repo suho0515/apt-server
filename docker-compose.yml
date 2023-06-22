@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  apt-server:
+    build: .
+    volumes:
+      - ./mirror:/var/spool/apt-mirror
+      - ./debs:/debs
+    ports:
+      - 80:80

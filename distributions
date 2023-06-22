@@ -1,0 +1,6 @@
+Origin: Your Name
+Label: Your Repository
+Codename: focal
+Architectures: i386 amd64 source
+Components: main
+Description: Your own apt repository
